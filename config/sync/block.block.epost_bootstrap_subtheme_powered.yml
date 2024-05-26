@@ -1,0 +1,22 @@
+uuid: f46b75e2-1319-4f1a-b2d3-830cf0436b50
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - epost_bootstrap_subtheme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: epost_bootstrap_subtheme_powered
+theme: epost_bootstrap_subtheme
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

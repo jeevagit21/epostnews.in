@@ -46,4 +46,6 @@ module:
 theme:
   olivero: 0
   claro: 0
+  bootstrap: 0
+  epost_bootstrap_subtheme: 0
 profile: standard
