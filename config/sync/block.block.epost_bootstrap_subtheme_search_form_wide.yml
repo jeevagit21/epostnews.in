@@ -1,6 +1,6 @@
 uuid: e57db6db-9aac-4155-bb4b-60e4f6333509
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -10,7 +10,7 @@ _core:
   default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
 id: epost_bootstrap_subtheme_search_form_wide
 theme: epost_bootstrap_subtheme
-region: secondary_menu
+region: navigation
 weight: -5
 provider: null
 plugin: search_form_block

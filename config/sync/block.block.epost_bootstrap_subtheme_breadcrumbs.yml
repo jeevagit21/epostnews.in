@@ -10,8 +10,8 @@ _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
 id: epost_bootstrap_subtheme_breadcrumbs
 theme: epost_bootstrap_subtheme
-region: breadcrumb
-weight: 0
+region: header
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:

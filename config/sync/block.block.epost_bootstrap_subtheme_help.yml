@@ -10,8 +10,8 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: epost_bootstrap_subtheme_help
 theme: epost_bootstrap_subtheme
-region: header
-weight: 0
+region: help
+weight: -7
 provider: null
 plugin: help_block
 settings:
