@@ -17,9 +17,11 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/bootstrap": "^3.30",
+        "drupal/components": "^3.0@beta",
         "drupal/core-composer-scaffold": "^10.2",
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
+        "drupal/radix": "^5.0",
         "drush/drush": "^12.5"
     },
     "conflict": {

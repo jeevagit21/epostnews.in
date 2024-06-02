@@ -9,6 +9,7 @@ module:
   breakpoint: 0
   ckeditor5: 0
   comment: 0
+  components: 0
   config: 0
   contact: 0
   contextual: 0
@@ -24,6 +25,8 @@ module:
   history: 0
   image: 0
   link: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
@@ -46,6 +49,9 @@ module:
 theme:
   olivero: 0
   claro: 0
-  bootstrap: 0
-  epost_bootstrap_subtheme: 0
+  stable9: 0
+  starterkit_theme: 0
+  my_stktst: 0
+  radix: 0
+  epost_radix: 0
 profile: standard

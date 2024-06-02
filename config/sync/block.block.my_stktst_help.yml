@@ -1,0 +1,22 @@
+uuid: 4672b715-4c21-4604-8cce-cfef26b18317
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - my_stktst
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: my_stktst_help
+theme: my_stktst
+region: header
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

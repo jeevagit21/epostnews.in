@@ -1,0 +1,31 @@
+uuid: 4f6b6306-b793-4987-979d-ce9f018aecac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_asset
+    - media.type.image
+    - media.type.remote_video
+    - node.type.news
+id: node.news.field_featured_asset
+field_name: field_featured_asset
+entity_type: node
+bundle: news
+label: 'Featured asset'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

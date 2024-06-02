@@ -1,0 +1,22 @@
+uuid: dad1554e-9d15-482b-89a2-d1ddb702a892
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - epost_radix
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: epost_radix_powered
+theme: epost_radix
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

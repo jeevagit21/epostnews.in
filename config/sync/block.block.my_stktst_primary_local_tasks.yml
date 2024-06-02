@@ -1,0 +1,22 @@
+uuid: 2fab072a-a314-46c0-8a3e-690c71696f86
+langcode: en
+status: true
+dependencies:
+  theme:
+    - my_stktst
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: my_stktst_primary_local_tasks
+theme: my_stktst
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

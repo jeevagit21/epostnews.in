@@ -1,0 +1,23 @@
+uuid: 15dc829d-293b-48d8-8a62-02f2dcb1e356
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - my_stktst
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: my_stktst_search_form_wide
+theme: my_stktst
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

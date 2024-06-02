@@ -1,0 +1,20 @@
+uuid: 1b356272-16b2-4b1e-aea0-d5a47a4b8000
+langcode: en
+status: true
+dependencies:
+  theme:
+    - my_stktst
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: my_stktst_primary_admin_actions
+theme: my_stktst
+region: header
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
